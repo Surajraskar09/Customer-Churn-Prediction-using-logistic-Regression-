@@ -547,20 +547,19 @@ def save_prediction_log(customer_data, prediction, probability):
     # In real implementation, you would save to database
     pass
 
-# Footer
+# Footer (Optional - can be removed)
 def show_footer():
     st.markdown("---")
     st.markdown("""
     <div style='text-align: center; color: #666; padding: 20px;'>
-        <p>🚀 Customer Churn Prediction System v1.0</p>
-        <p>Built with Streamlit, Python, and Scikit-learn</p>
-        <p>For support, contact: data-science-team@company.com</p>
+        <p>🚀 Customer Churn Prediction System</p>
+        <p>Built with Streamlit, Python, and Machine Learning</p>
     </div>
     """, unsafe_allow_html=True)
 
 if __name__ == "__main__":
     main()
-    show_footer()
+    # show_footer()  # Commented out - remove footer completely
 
 # Instructions to run:
 """
